@@ -1,0 +1,9 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  # 自动注册所有服务
+  CampaignCouponBundle\Service\:
+    resource: '../../Service/'
+    tags: ['campaign.reward_processor']
