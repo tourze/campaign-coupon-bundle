@@ -11,7 +11,7 @@ use Tourze\SymfonyDependencyServiceLoader\AutoExtension;
  *
  * 自动加载 services.yaml 配置文件
  */
-class CampaignCouponExtension extends AutoExtension
+final class CampaignCouponExtension extends AutoExtension
 {
     protected function getConfigDir(): string
     {

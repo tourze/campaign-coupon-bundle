@@ -16,7 +16,8 @@
     "phpstan/phpstan": "^2.1",
     "phpunit/phpunit": "^11.5",
     "symfony/dependency-injection": "^7.3",
-    "symfony/phpunit-bridge": "^7.3"
+    "symfony/phpunit-bridge": "^7.3",
+    "tourze/phpunit-symfony-kernel-test": "2.0.*"
   },
   "autoload": {
     "psr-4": {
